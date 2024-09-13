@@ -18,8 +18,15 @@
 //    getDOM.style.backgroundColor = 'brown';
 //    console.log(getDOM);
 
-function tryDOM() {
-    let getDOM = document.getElementsByClassName('main-content');
-    getDOM[0].style.display = 'none';
-    console.log(getDOM);
+//function tryDOM() {
+//    let getDOM = document.getElementsByClassName('main-content');
+//    getDOM[0].style.display = 'none';
+//    console.log(getDOM);
+//}
+
+function validateLuas() {
+    let panjangAlas = document.getElementById('panjang-alas').value;
+    let tinggi = document.getElementById('tinggi').value;
+    console.log(panjangAlas);
+    console.log(tinggi);
 }
