@@ -28,7 +28,7 @@ function validateLuas() {
     let panjangAlas = document.getElementById('panjang-alas').value; //value untuk menarik nilai
     let tinggi = document.getElementById('tinggi').value;
 
-    if (panjangAlas == '' && tinggi == '') {    //&& dibaca atau
+    if (panjangAlas == '' || tinggi == '') {    //&& dan, || atau 
         alert('form masih kosong');
     }
          
